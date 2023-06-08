@@ -16,7 +16,7 @@ const Slider = () => {
   );
   return (
     <Carousel
-      className="relative shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[90vh]"
+      className="relative shadow-[0_3px_10px_rgb(0,0,0,0.2)] md:h-[90vh] h-[70vh]"
       autoPlay={true}
       stopOnHover={true}
       swipeable={true}
@@ -30,9 +30,9 @@ const Slider = () => {
           width={1200}
           height={800}
           alt="s"
-          className="h-[90vh] object-cover object-right-top"
+          className="md:h-[90vh] h-[70vh] object-cover object-right-top"
         />
-        <div className="text absolute md:top-1/2 bottom-1/2 md:w-1/2 w-full md:px-10 pl-6 pr-4">
+        <div className="absolute top-1/2 left-10 transform -translate-y-1/2">
           <h4 className="text-5xl font-semibold max-w-2xl ml-auto text-start text-white">
             Shelby’s Signature Bridal Look
           </h4>
@@ -44,9 +44,9 @@ const Slider = () => {
           width={1200}
           height={800}
           alt="s"
-          className="h-[90vh] object-cover object-right-top"
+          className="md:h-[90vh] h-[70vh] object-cover object-right-top"
         />
-        <div className="text absolute md:top-1/2 bottom-1/2 md:w-1/2 w-full md:px-10 pl-6 pr-4">
+        <div className="absolute top-1/2 left-10 transform -translate-y-1/2">
           <h4 className="text-5xl font-semibold max-w-2xl ml-auto text-start text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing.
           </h4>
@@ -58,9 +58,9 @@ const Slider = () => {
           width={1200}
           height={800}
           alt="s"
-          className="h-[90vh] object-cover object-right-top"
+          className="md:h-[90vh] h-[70vh] object-cover object-right-top"
         />
-        <div className="text absolute md:top-1/2 bottom-1/2 md:w-1/2 w-full md:px-10 pl-6 pr-4">
+        <div className="absolute top-1/2 left-10 transform -translate-y-1/2">
           <h4 className="text-5xl font-semibold max-w-2xl ml-auto text-start text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing.
           </h4>
@@ -72,9 +72,9 @@ const Slider = () => {
           width={1200}
           height={800}
           alt="s"
-          className="h-[90vh] object-cover object-right-top"
+          className="md:h-[90vh] h-[70vh] object-cover object-right-top"
         />
-        <div className="text absolute md:top-1/2 bottom-1/2 md:w-1/2 w-full md:px-10 pl-6 pr-4">
+        <div className="absolute top-1/2 left-10 transform -translate-y-1/2">
           <h4 className="text-5xl font-semibold max-w-2xl ml-auto text-start text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing.
           </h4>

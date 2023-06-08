@@ -10,13 +10,13 @@ const Portfolio = () => {
         Shelby&apos;s Portfolio
       </h2>
 
-      <div className="columns-4 my-5 gap-2 gap-y-1">
+      <div className="lg:columns-4 md:columns-3 columns-2 my-5 gap-2 gap-y-1">
         {img.map((img) => (
           <Image
             key={img.id}
             src={`/pictures/${img.img}`}
             alt=""
-            className="mb-2"
+            className="mb-2 mx-auto"
             width={600}
             height={500}
           />

@@ -23,7 +23,7 @@ const responsiveSettings = [
 const About = () => {
   return (
     <>
-      <div className="py-12 text-white relative md:px-10 px-1">
+      <div className="py-2 text-white relative md:px-10 px-1">
         <h2 className="text-[#DAA520] my-8 text-3xl mx-auto text-center font-bold">
           About Shelby&apos;s
         </h2>

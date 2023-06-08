@@ -10,7 +10,7 @@ const services = () => {
             <Head>
                 <title>Services - Makeup Artist</title>
             </Head>
-            <div className="bg-black text-white p-8">
+            <div className="bg-black text-white md:px-8 px-0  py-8">
                 <h1 className="text-[#DAA520] my-8 text-3xl mx-auto text-center font-bold">Services We Provide</h1>
                 <div className="flex flex-wrap my-5">
                     {coursesData.map((course) => (

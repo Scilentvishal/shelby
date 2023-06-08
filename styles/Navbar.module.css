@@ -1,0 +1,4 @@
+.carousel.carousel-slider .control-arrow {
+  top: 50% !important;
+  bottom: unset !important;
+}
