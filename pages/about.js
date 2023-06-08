@@ -9,7 +9,7 @@ const about = () => {
             <div>
                 <Hero />
             </div>
-            <div className="container mx-auto max-w-screen-xl">
+            <div className="container px-1 mx-auto max-w-screen-xl">
                 <Info />
             </div>
         </>
