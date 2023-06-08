@@ -2,7 +2,7 @@ import React from 'react';
 
 const info = () => {
   return (
-    <div className="py-2 md:px-10 px-1 text-start">
+    <div className="py-2 md:px-10 px-1 text-start text-white">
       <h3 className="text-[#DAA520] my-1 text-3xl font-bold">HELLO</h3>
       <p className="text-xl px-2">
         <span className="inline-block w-16 bg-[#DAA520] h-1 mr-2"> </span>
