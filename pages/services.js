@@ -3,15 +3,18 @@ import React from 'react'
 
 import { coursesData } from '../data';
 import CoursesCard from '../components/cards/CoursesCard'
+import Hero from '../components/common/hero'
 
 const services = () => {
     return (
-        <div className='container mx-auto max-w-screen-xl pt-8'>
+        <div className=''>
             <Head>
                 <title>Services - Makeup Artist</title>
             </Head>
-            <div className="bg-black text-white md:px-8 px-0  py-8">
-                <h1 className="text-[#DAA520] my-8 text-3xl mx-auto text-center font-bold">Services We Provide</h1>
+            <div>
+                <Hero img="main5.jpg" heading="Services We Provide" />
+            </div>
+            <div className="container mx-auto max-w-screen-xl pt-8 bg-black text-white md:px-8 px-0  py-8">
                 <div className="flex flex-wrap my-5">
                     {coursesData.map((course) => (
                         <CoursesCard
