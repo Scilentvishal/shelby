@@ -51,7 +51,7 @@ const Navbar = () => {
           />
         </Link>
         <div
-          className="flex lg:hidden z-40 justify-between flex-col h-6 ml-auto w-6"
+          className="flex lg:hidden z-40 justify-between flex-col h-6 ml-auto w-6 cursor-pointer"
           onClick={() => setOpen(!open)}
         >
           <span className="h-1 w-6 bg-white"></span>
@@ -97,15 +97,15 @@ const Navbar = () => {
           </Link>
         </nav>
         <ul
-          className="md:hidden transition-all py-10 duration-300 fixed h-[100vh] w-full md:w-1/2 bg-black m-0 p-0 font-bold text-gray-300 list-none bottom-0 top-0 flex flex-col items-center z-50"
+          className="lg:hidden transition-all py-10 duration-300 fixed h-[100vh] w-full md:w-1/2 bg-black m-0 p-0 font-bold text-gray-300 list-none bottom-0 top-0 flex flex-col items-center z-50"
           style={{ right: open ? '0px' : '-100vw' }}
         >
           <span
-            class="inline-block w-11 h-11 absolute right-9 top-9"
+            className="inline-block w-11 h-11 absolute right-9 top-9 cursor-pointer"
             onClick={() => setOpen(false)}
           >
-            <span class="inline-block absolute w-10 h-1 bg-white transform rotate-45 translate-x-1.5"></span>
-            <span class="inline-block absolute w-10 h-1 bg-white transform -rotate-45 translate-x-1.5"></span>
+            <span className="inline-block absolute w-10 h-1 bg-white transform rotate-45 translate-x-1.5"></span>
+            <span className="inline-block absolute w-10 h-1 bg-white transform -rotate-45 translate-x-1.5"></span>
           </span>
           <Link
             onClick={() => setOpen(false)}
