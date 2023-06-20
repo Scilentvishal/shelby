@@ -23,11 +23,11 @@ const responsiveSettings = [
 const About = () => {
   return (
     <>
-      <div className="py-2 text-white relative md:px-10 px-1">
-        <h2 className="text-[#DAA520] my-8 text-3xl mx-auto text-center font-bold">
+      <div className="pt-2 lg:pb-10 pb-2 text-white relative md:px-10 px-1">
+        <h2 className="text-[#DAA520] line my-8 text-3xl mx-auto text-center font-bold">
           About Shelby&apos;s
         </h2>
-        <div className="relative">
+        {/* <div className="relative">
           <Slide
             slidesToScroll={1}
             slidesToShow={1}
@@ -91,24 +91,47 @@ const About = () => {
               />
             </div>
           </Slide>
+        </div> */}
+        <div className="flex lg:flex-row flex-col relative">
+          <div className="lg:w-1/2 lg:pb-0 pb-16 justify-center w-full relative">
+            <Image
+              src="/pictures/shelby2.JPG"
+              width={350}
+              height={400}
+              alt="Shelby"
+              className="mx-auto sm:flex hidden"
+            />
+            <Image
+              src="/pictures/shelby1.JPG"
+              width={350}
+              height={400}
+              alt="Shelby"
+              className=" sm:absolute relative flex mx-auto sm:top-10 md:left-28 sm:left-12"
+            />
+          </div>
+          <div className="lg:w-1/2 w-full relative flex flex-col justify-center">
+            {' '}
+            <h3 className="text-[#DAA520] my-1 text-3xl font-bold px-2">
+              HELLO
+            </h3>
+            <p className="text-xl italic px-2">
+              <span className="inline-block w-16 bg-white"></span>
+              is a versatile bridal makeup artist & makeup educator having 10
+              years of expereince
+            </p>
+            <p className="px-2">
+              <span className="h-[2px] bg-white inline-block w-16"></span>
+              <br />
+              Shelby’s “Passion to Beautify” has transformed numerous clients
+              into stunningly beautiful brides for their special day. Shelby’s
+              Signature Bridal Look of minimalistic, subtle, realistic and
+              natural makeup has taken the industry by storm, especially, for
+              clients who perhaps are not used to wearing makeup at all. She
+              creates magic with her exceptional knowledge and skills, making
+              everyone spellbound with her extraordinary talent.
+            </p>
+          </div>
         </div>
-        <h3 className="text-[#DAA520] my-1 text-3xl font-bold px-2">HELLO</h3>
-        <p className="text-xl italic px-2">
-          <span className="inline-block w-16 bg-white"></span>
-          is a versatile bridal makeup artist & makeup educator having 10 years
-          of expereince
-        </p>
-        <p className="px-2">
-          <span className="h-[2px] bg-white inline-block w-16"></span>
-          <br />
-          Shelby’s “Passion to Beautify” has transformed numerous clients into
-          stunningly beautiful brides for their special day. Shelby’s Signature
-          Bridal Look of minimalistic, subtle, realistic and natural makeup has
-          taken the industry by storm, especially, for clients who perhaps are
-          not used to wearing makeup at all. She creates magic with her
-          exceptional knowledge and skills, making everyone spellbound with her
-          extraordinary talent.
-        </p>
       </div>
     </>
   );

@@ -48,44 +48,24 @@ export const coursesData = [
     {
         id: 1,
         img: "main14.jpg",
-        title: "BASIC TO ADVANCE PRO SPECIALIST",
-        desc: "Shelby’s Signature Bridal Look"
+        title: "Basic Professional Makeup , Hair & Draping Course",
+        desc: "Shelby’s Signature Bridal Look",
+        duration: "15 Days"
+
     },
     {
         id: 2,
         img: "main9.jpg",
-        title: "Air Brush Makeup",
-        desc: "Flawless AirBrush Makeup"
+        title: "Professional Nail Art Course",
+        desc: "Flawless AirBrush Makeup",
+        duration: "15 Days"
     },
     {
         id: 3,
         img: "main9.jpg",
-        title: "Engagement Makeup",
-        desc: "Look Gorgeous! "
-    },
-    {
-        id: 4,
-        img: "main9.jpg",
-        title: "Pre Wedding Makeup",
-        desc: "Love is in the air!"
-    },
-    {
-        id: 5,
-        img: "main9.jpg",
-        title: "Party Makeup",
-        desc: "Stunningly Beautiful Everyday! "
-    },
-    {
-        id: 6,
-        img: "main9.jpg",
-        title: "Hairstyling",
-        desc: " Everyday is Good Hair Day! "
-    },
-    {
-        id: 7,
-        img: "main9.jpg",
-        title: "Nail Art",
-        desc: " Good Nails Speaks Louder than Words! "
+        title: "Advance Makeup, Hair, Draping  course",
+        desc: "Look Gorgeous! ",
+        duration: "15 Days"
     },
 
 ]

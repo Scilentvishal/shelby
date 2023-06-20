@@ -4,7 +4,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout className="font-mono" >
+    <Layout className="font-mono overflow-x-hidden" >
       <Component {...pageProps} />
     </Layout>
   )

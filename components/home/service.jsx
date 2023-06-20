@@ -24,8 +24,8 @@ const Service = () => {
   return (
     <div>
       <div className="py-2 md:px-10 px-1">
-        <h2 className="text-[#DAA520] my-8 text-3xl mx-auto text-center font-bold">
-          Shelby&apos;s Services
+        <h2 className="text-[#DAA520] line my-8 text-3xl mx-auto text-center font-bold">
+          Shelby&apos;s Beauty Services
         </h2>
 
         <Slide
@@ -35,7 +35,7 @@ const Service = () => {
           autoplay={true}
           showThumbs={false}
           responsive={responsiveSettings}
-          className="my-5"
+          className="mt-5"
         >
           <div className="relative px-2 cursor-pointer rounded-ss-3xl rounded-ee-3xl">
             <Image

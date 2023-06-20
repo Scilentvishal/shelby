@@ -11,19 +11,19 @@ const Main = () => {
       <div className="md:h-[90vh] h-[70vh] relative">
         <Hero />
       </div>
-      <div className="container mx-auto px-1 max-w-screen-xl">
+      <div className="container mx-auto px-1 max-w-screen-xl overflow-x-hidden">
         <About />
       </div>
-      <div className="container mx-auto px-1 max-w-screen-xl">
-        <Portfolio />
-      </div>
-      <div className="container mx-auto px-1 max-w-screen-xl">
-        <Courses />
-      </div>
-      <div className="container mx-auto px-1 max-w-screen-xl">
+      <div className="container mx-auto px-1 max-w-screen-xl overflow-x-hidden">
         <Service />
       </div>
-      <div className="container mx-auto px-1 max-w-screen-xl">
+      <div className="container mx-auto px-1 max-w-screen-xl overflow-x-hidden">
+        <Portfolio />
+      </div>
+      <div className="container mx-auto px-1 max-w-screen-xl overflow-x-hidden">
+        <Courses />
+      </div>
+      <div className="container mx-auto px-1 max-w-screen-xl overflow-x-hidden">
         <Testimonial />
       </div>
     </>

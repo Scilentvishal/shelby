@@ -31,7 +31,7 @@ const Slider = () => {
           height={800}
           alt="s"
           className="md:h-[90vh] h-[70vh] object-cover object-right-top"
-          property
+          priority
         />
         <div className="absolute top-1/2 left-10 transform -translate-y-1/2">
           <h4 className="text-5xl font-semibold max-w-2xl ml-auto text-start text-white">
