@@ -34,7 +34,7 @@ const Slider = () => {
           priority
         />
         <div className="absolute top-1/2 left-10 transform -translate-y-1/2">
-          <h4 className="text-5xl font-semibold max-w-2xl ml-auto text-start text-white">
+          <h4 className=" md:text-5xl sm:text-4xl text-3xl font-semibold max-w-2xl ml-auto text-start text-white">
             Shelby’s Signature Bridal Look
           </h4>
         </div>
@@ -48,7 +48,7 @@ const Slider = () => {
           className="md:h-[90vh] h-[70vh] object-cover object-right-top"
         />
         <div className="absolute top-1/2 left-10 transform -translate-y-1/2">
-          <h4 className="text-5xl font-semibold max-w-2xl ml-auto text-start text-white">
+          <h4 className=" md:text-5xl sm:text-4xl text-3xl font-semibold max-w-2xl ml-auto text-start text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing.
           </h4>
         </div>
@@ -62,7 +62,7 @@ const Slider = () => {
           className="md:h-[90vh] h-[70vh] object-cover object-right-top"
         />
         <div className="absolute top-1/2 left-10 transform -translate-y-1/2">
-          <h4 className="text-5xl font-semibold max-w-2xl ml-auto text-start text-white">
+          <h4 className=" md:text-5xl sm:text-4xl text-3xl font-semibold max-w-2xl ml-auto text-start text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing.
           </h4>
         </div>
@@ -76,7 +76,7 @@ const Slider = () => {
           className="md:h-[90vh] h-[70vh] object-cover object-right-top"
         />
         <div className="absolute top-1/2 left-10 transform -translate-y-1/2">
-          <h4 className="text-5xl font-semibold max-w-2xl ml-auto text-start text-white">
+          <h4 className=" md:text-5xl sm:text-4xl text-3xl font-semibold max-w-2xl ml-auto text-start text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing.
           </h4>
         </div>
