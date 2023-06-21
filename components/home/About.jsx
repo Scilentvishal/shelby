@@ -24,7 +24,7 @@ const About = () => {
   return (
     <>
       <div className="pt-2 lg:pb-10 pb-2 text-white relative md:px-10 px-1">
-        <h2 className="text-[#DAA520] line my-8 text-3xl mx-auto text-center font-bold">
+        <h2 className="text-[#DAA520] line my-8 md:text-3xl text-2xl mx-auto text-center font-bold">
           About Shelby&apos;s
         </h2>
         {/* <div className="relative">

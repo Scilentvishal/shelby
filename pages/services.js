@@ -1,8 +1,5 @@
 import Head from 'next/head'
 import React from 'react'
-
-import { coursesData } from '../data';
-import CoursesCard from '../components/cards/CoursesCard'
 import Hero from '../components/common/hero'
 
 const services = () => {

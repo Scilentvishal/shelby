@@ -25,7 +25,7 @@ const Testimonial = () => {
   return (
     <div>
       <div className="py-2 md:px-10 px-1">
-        <h2 className="text-[#DAA520] line drop-shadow-[0px_2px_9px_1px_#DAA520] my-8 text-3xl mx-auto text-center font-bold">
+        <h2 className="text-[#DAA520] line drop-shadow-[0px_2px_9px_1px_#DAA520] my-8  md:text-3xl text-2xl mx-auto text-center font-bold">
           What People Thinks?
         </h2>
 
