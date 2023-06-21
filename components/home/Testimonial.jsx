@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
+import { AiFillInstagram } from 'react-icons/ai';
 
 const responsiveSettings = [
   {
@@ -38,7 +39,7 @@ const Testimonial = () => {
           className="my-5"
         >
           <div className="relative px-2 py-3">
-            <div className="card bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
+            <div className="card relative bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
               <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
               <p className="text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -47,10 +48,19 @@ const Testimonial = () => {
                 corporis molestiae ducimus quod iusto, expedita doloribus qui
                 sed rem repudiandae.
               </p>
+              <div className="flex py-4 align-middle">
+                <Image
+                  src="/pictures/main13.jpg"
+                  className="rounded-full w-10 h-10 object-cover object-top inline-block mr-4"
+                  width={50}
+                  height={50}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div className="relative px-2 py-3">
-            <div className="card bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
+            <div className="card relative bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
               <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
               <p className="text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -59,10 +69,19 @@ const Testimonial = () => {
                 corporis molestiae ducimus quod iusto, expedita doloribus qui
                 sed rem repudiandae.
               </p>
+              <div className="flex py-4 align-middle">
+                <Image
+                  src="/pictures/main13.jpg"
+                  className="rounded-full w-10 h-10 object-cover object-top inline-block mr-4"
+                  width={50}
+                  height={50}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div className="relative px-2 py-3">
-            <div className="card bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
+            <div className="card relative bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
               <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
               <p className="text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -71,10 +90,19 @@ const Testimonial = () => {
                 corporis molestiae ducimus quod iusto, expedita doloribus qui
                 sed rem repudiandae.
               </p>
+              <div className="flex py-4 align-middle">
+                <Image
+                  src="/pictures/main13.jpg"
+                  className="rounded-full w-10 h-10 object-cover object-top inline-block mr-4"
+                  width={50}
+                  height={50}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div className="relative px-2 py-3">
-            <div className="card bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
+            <div className="card relative bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
               <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
               <p className="text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -83,10 +111,19 @@ const Testimonial = () => {
                 corporis molestiae ducimus quod iusto, expedita doloribus qui
                 sed rem repudiandae.
               </p>
+              <div className="flex py-4 align-middle">
+                <Image
+                  src="/pictures/main13.jpg"
+                  className="rounded-full w-10 h-10 object-cover object-top inline-block mr-4"
+                  width={50}
+                  height={50}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div className="relative px-2 py-3">
-            <div className="card bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
+            <div className="card relative bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
               <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
               <p className="text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -95,30 +132,15 @@ const Testimonial = () => {
                 corporis molestiae ducimus quod iusto, expedita doloribus qui
                 sed rem repudiandae.
               </p>
-            </div>
-          </div>
-          <div className="relative px-2 py-3">
-            <div className="card bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
-              <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
-              <p className="text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt odit dolor eveniet commodi? Cum, reiciendis. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-                corporis molestiae ducimus quod iusto, expedita doloribus qui
-                sed rem repudiandae.
-              </p>
-            </div>
-          </div>
-          <div className="relative px-2 py-3">
-            <div className="card bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
-              <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
-              <p className="text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt odit dolor eveniet commodi? Cum, reiciendis. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-                corporis molestiae ducimus quod iusto, expedita doloribus qui
-                sed rem repudiandae.
-              </p>
+              <div className="flex py-4 align-middle">
+                <Image
+                  src="/pictures/main13.jpg"
+                  className="rounded-full w-10 h-10 object-cover object-top inline-block mr-4"
+                  width={50}
+                  height={50}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </Slide>
