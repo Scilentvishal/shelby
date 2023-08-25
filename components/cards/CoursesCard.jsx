@@ -4,7 +4,7 @@ import Link from 'next/link';
 const CoursesCard = ({ img, title, desc, duration }) => {
   return (
     <div className="p-3 lg:w-1/3  sm:w-1/2 rounded-sm w-full">
-      <div className="flex flex-col rounded bg-black shadow-[0px_0px_5px_0px_#808080]">
+      <div className="flex flex-col rounded bg-gray-950 shadow-[0px_0px_5px_0px_#808080]">
         <div className="img overflow-hidden relative bg-white">
           <Image
             width={300}

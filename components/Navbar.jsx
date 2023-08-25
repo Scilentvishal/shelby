@@ -28,7 +28,7 @@ const Navbar = () => {
   }, [prevScrollPos]);
 
   const navbarClasses = `fixed w-full lg:bg-transperant bg-black transition-all duration-300 ease-in-out z-10 px-5 ${
-    isSticky ? 'bg-black shadow-lg py-2' : 'bg-transparent py-5'
+    isSticky ? 'bg-gray-950 shadow-lg py-2' : 'bg-transparent py-5'
   }`;
 
   const logoClasses = `text-white font-bold text-xl transition-all duration-300 ease-in-out  ${

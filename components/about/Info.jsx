@@ -3,15 +3,12 @@ import React from 'react';
 const info = () => {
   return (
     <div className="py-2 md:px-10 px-1 text-start text-white">
-      <h3 className="text-[#DAA520] my-1  md:text-3xl text-2xl font-bold">
+      <h3 className="text-[#DAA520] my-1  md:text-3xl sm:text-2xl font-bold">
         HELLO
       </h3>
-      <p className="text-xl px-2">
+      <p className="sm:text-xl text-sm">
         <span className="inline-block w-16 bg-[#DAA520] h-1 mr-2"> </span>
-        <span className="text-[#DAA520] italic font-bold text-2xl">
-          {' '}
-          Shelby’s{' '}
-        </span>{' '}
+        <span className="text-[#DAA520] italic font-bold"> Shelby’s </span>{' '}
         “Passion to Beautify” has transformed numerous clients into stunningly
         beautiful brides for their special day. Shelby’s Signature Bridal Look
         of minimalistic, subtle, realistic and natural makeup has taken the
@@ -19,9 +16,9 @@ const info = () => {
         wearing makeup at all. She creates magic with her exceptional knowledge
         and skills, making everyone spellbound with her extraordinary talent.
       </p>
-      <p className="text-white text-xl "></p>
+      <p className="text-white sm:text-xl text-sm "></p>
       <br />
-      <p className="text-white text-xl">
+      <p className="text-white sm:text-xl text-sm">
         Shelby graduated as an engineer meanwhile kept her passion and love for
         makeup artistry alive by doing multiple national and international
         courses in Makeup, Hairstyling, Nail art and Dreadlocks. She was a child
@@ -30,7 +27,7 @@ const info = () => {
         the makeup industry.
       </p>
       <br />
-      <p className="text-white text-xl">
+      <p className="text-white sm:text-xl text-sm">
         She always wanted to encourage young entrepreneurs to follow their
         passion and envisioned Shelby’s Makeup Studio and Academy. Students
         flocked immediately due to her lucid language skills to explain the

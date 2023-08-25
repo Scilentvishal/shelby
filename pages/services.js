@@ -11,9 +11,9 @@ const services = () => {
             <div>
                 <Hero img="main5.jpg" heading="Services We Provide" />
             </div>
-            <div className="container mx-auto max-w-screen-xl pt-8 bg-black text-white md:px-8 px-0  py-8">
+            {/* <div className="container mx-auto max-w-screen-xl pt-8 bg-black text-white md:px-8 px-0  py-8">
 
-            </div>
+            </div> */}
         </div>
     )
 }
