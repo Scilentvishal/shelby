@@ -7,7 +7,7 @@ import NextNProgress from 'nextjs-progressbar';
 const Layout = ({ children }) => {
   return (
     <div
-      className="relative bg-black"
+      className="relative bg-gray-900"
       // style={{
       //   backgroundImage: 'url(/pexels-bogdan-krupin-12049700.jpg)',
       //   backgroundRepeat: 'no-repeat',

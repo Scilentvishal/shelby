@@ -27,71 +27,7 @@ const About = () => {
         <h2 className="text-[#DAA520] line my-8 md:text-3xl text-2xl mx-auto text-center font-bold">
           About Shelby&apos;s
         </h2>
-        {/* <div className="relative">
-          <Slide
-            slidesToScroll={1}
-            slidesToShow={1}
-            indicators={true}
-            autoplay={false}
-            showThumbs={false}
-            responsive={responsiveSettings}
-          >
-            <div className="h-[60vh]">
-              <Image
-                src="/pictures/main.jpg"
-                width={500}
-                height={400}
-                className="object-contain object-center shadow-[0px_0px_7px_0px_#DAA520]"
-                alt=""
-              />
-            </div>
-            <div className="h-[60vh]">
-              <Image
-                src="/pictures/main1.jpg"
-                width={500}
-                height={400}
-                className="object-contain object-center shadow-[0px_0px_7px_0px_#DAA520]"
-                alt=""
-              />
-            </div>
-            <div className="h-[60vh]">
-              <Image
-                src="/pictures/main2.jpg"
-                width={500}
-                height={400}
-                className="object-contain object-center shadow-[0px_0px_7px_0px_#DAA520]"
-                alt=""
-              />
-            </div>
-            <div className="h-[60vh]">
-              <Image
-                src="/pictures/main8.jpg"
-                width={500}
-                height={400}
-                className="object-contain object-center shadow-[0px_0px_7px_0px_#DAA520]"
-                alt=""
-              />
-            </div>
-            <div className="h-[60vh]">
-              <Image
-                src="/pictures/main4.jpg"
-                width={500}
-                height={400}
-                className="object-contain object-center shadow-[0px_0px_7px_0px_#DAA520]"
-                alt=""
-              />
-            </div>
-            <div className="h-[60vh]">
-              <Image
-                src="/pictures/main6.jpg"
-                width={500}
-                height={400}
-                className="object-contain object-center shadow-[0px_0px_7px_0px_#DAA520]"
-                alt=""
-              />
-            </div>
-          </Slide>
-        </div> */}
+
         <div className="flex lg:flex-row flex-col relative">
           <div className="lg:w-1/2 lg:pb-0 pb-16 justify-center w-full relative">
             <Image

@@ -39,7 +39,7 @@ const Testimonial = () => {
           className="my-5"
         >
           <div className="relative px-2 py-3">
-            <div className="card relative bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
+            <div className="card relative bg-gray-950 py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
               <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
               <p className="text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -60,7 +60,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="relative px-2 py-3">
-            <div className="card relative bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
+            <div className="card relative bg-gray-950 py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
               <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
               <p className="text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -81,7 +81,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="relative px-2 py-3">
-            <div className="card relative bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
+            <div className="card relative bg-gray-950 py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
               <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
               <p className="text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -102,7 +102,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="relative px-2 py-3">
-            <div className="card relative bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
+            <div className="card relative bg-gray-950 py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
               <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
               <p className="text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -123,7 +123,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="relative px-2 py-3">
-            <div className="card relative bg-black py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
+            <div className="card relative bg-gray-950 py-7 px-6 rounded-md shadow-[0px_0px_5px_0px_#808080] rounded-br-[4rem]">
               <h4 className="text-2xl">Lorem ipsum dolor sit amet.</h4>
               <p className="text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -45,7 +45,7 @@ const Service = () => {
               className="w-full rounded-ss-3xl rounded-ee-3xl"
               alt=""
             />
-            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-black rounded-ss-3xl rounded-ee-3xl text-white text-center">
+            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-gray-950 rounded-ss-3xl rounded-ee-3xl text-white text-center">
               <h4 className="text-[#DAA520]">Bridal Makeup</h4>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Service = () => {
               className="w-full rounded-ss-3xl rounded-ee-3xl"
               alt=""
             />
-            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-black rounded-ss-3xl rounded-ee-3xl text-white text-center">
+            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-gray-950 rounded-ss-3xl rounded-ee-3xl text-white text-center">
               <h4 className="text-[#DAA520]">Air Brush Makeup</h4>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Service = () => {
               className="w-full rounded-ss-3xl rounded-ee-3xl"
               alt=""
             />
-            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-black rounded-ss-3xl rounded-ee-3xl text-white text-center">
+            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-gray-950 rounded-ss-3xl rounded-ee-3xl text-white text-center">
               <h4 className="text-[#DAA520]">Engagement Makeup</h4>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Service = () => {
               className="w-full rounded-ss-3xl rounded-ee-3xl"
               alt=""
             />
-            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-black rounded-ss-3xl rounded-ee-3xl text-white text-center">
+            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-gray-950 rounded-ss-3xl rounded-ee-3xl text-white text-center">
               <h4 className="text-[#DAA520]">Pre Wedding Makeup</h4>
             </div>
           </div>
@@ -93,7 +93,7 @@ const Service = () => {
               className="w-full rounded-ss-3xl rounded-ee-3xl"
               alt=""
             />
-            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-black rounded-ss-3xl rounded-ee-3xl text-white text-center">
+            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-gray-950 rounded-ss-3xl rounded-ee-3xl text-white text-center">
               <h4 className="text-[#DAA520]">Party Makeup</h4>
             </div>
           </div>
@@ -105,7 +105,7 @@ const Service = () => {
               className="w-full rounded-ss-3xl rounded-ee-3xl"
               alt=""
             />
-            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-black rounded-ss-3xl rounded-ee-3xl text-white text-center">
+            <div className="absolute bottom-2 right-4 left-4 py-4 rounded-sm bg-gray-950 rounded-ss-3xl rounded-ee-3xl text-white text-center">
               <h4 className="text-[#DAA520]">Hairstyling</h4>
             </div>
           </div>

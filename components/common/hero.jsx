@@ -11,15 +11,15 @@ const Hero = ({ img, heading }) => {
         >
           {heading}
         </h2>
-        <div class="absolute -bottom-1 left-0 right-0 h-20">
+        <div className="absolute -bottom-1 left-0 right-0 h-20">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1440 320"
             preserveAspectRatio="none"
-            class="w-full h-full"
+            className="w-full h-full"
           >
             <path
-              fill="#000"
+              fill="#111827"
               d="M0,96L40,90.7C80,85,160,75,240,74.7C320,75,400,85,480,122.7C560,160,640,224,720,218.7C800,213,880,139,960,138.7C1040,139,1120,213,1200,229.3C1280,245,1360,203,1400,181.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
             >
               <animate
